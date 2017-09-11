@@ -1,0 +1,3 @@
+<footer>
+    Bon spectacle
+</footer>
