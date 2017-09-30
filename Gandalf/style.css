@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    position: absolute;
+}
+
+#fondImage:hover {
+    background: url(img/gandalf.png);
+}
+
+#fondImage {
+    background: linear-gradient(rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.45)), url(img/gandalf.png);
+    width: 500px;
+    height: 530px;
+    position: relative;
+    padding-top: 20px;
+}
+
+#text {
+    width: auto;
+    height: auto;
+    background-color: grey;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 1;
+    font-size: 2em;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+#fondImage:hover #text {
+    display: none;
+
+}
+
+.gandalf_big {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+#fondImage:hover .gandalf_big {
+    margin-top: 450px;
+    font-size: 3em;
+}
+
+span {
+    color: orangered;
+}

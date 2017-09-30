@@ -5,6 +5,7 @@ $shows = array (
                     "titre_spectacle" => "Ballet aérien pour plumes et trompette",
                     "artiste" => "Dumbo & the renegade crowns",
                     "img_url" => "http://goo.gl/Vhe6lD",),
+
     1  => array(    "heure" => 12,
                     "titre_spectacle" => "De rayure en tache",
                     "artiste" => "George et ces gros chat",
@@ -19,4 +20,10 @@ $shows = array (
                     "titre_spectacle" => "En apesanteur",
                     "artiste" => "Mr. & Mrs. Nogravity",
                     "img_url" => "https://goo.gl/3NqgCv",),
+
+    4  => array(    "heure" => 16,
+                    "titre_spectacle" => "En apesanteur",
+                    "artiste" => "Mr. & Mrs. Nogravity",
+                    "img_url" => "https://goo.gl/3NqgCv",),
+
 );

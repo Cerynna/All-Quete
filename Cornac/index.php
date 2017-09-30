@@ -9,9 +9,9 @@
 </head>
 <body>
 <?php
-include ('header.php');
+include('header.php');
 
-include ('include.php');
+include('include.php');
 
 ?>
 <table border="1">
@@ -22,44 +22,26 @@ include ('include.php');
         <th>Image</th>
 
     </tr>
-
-
     <?php
 
     foreach ($shows as $key => $show) {
-
         echo "<tr>";
-
         foreach ($show as $keyShow => $value) {
-
-            if ($keyShow == "img_url")
-            {
+            if ($keyShow == "img_url") {
                 echo "<td> <a target='_blank' href='$value'>$value</a> </td>";
-            }
-            else {
+            } else {
                 echo "<td> $value </td>";
-
             }
-
-
-
-
         }
-
         echo "</tr>";
-
     }
     ?>
-
-
 
 
 </table>
 <?php
 
-
-include ('footer.php');
-
+include('footer.php');
 
 
 ?>
